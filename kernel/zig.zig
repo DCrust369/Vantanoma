@@ -1,39 +1,32 @@
-const sdt = @import("std");
+// direitos autorais DCrust 16/04/2026
+const std = @import("std");
 
 pub fn main() !void {
+    const stdout = std.io.getStdOut().writer();
+
     // malware ficticio
-    try std.fs.File.stdout().writeAll("Malware!\n");
-    try std.fs.File.stdout().writeAll("tipo: ransoware!\n");
-    // malware name
-    try std.fs.File.stdout().writeAll("Mal que habita a terra!\n");
-    // force brute
-    var i64 = 10.000;
-    var senhas = 10.000;
-    var 10.000 = tentativas;
-    {
-        var i64 = c_char;
-        var i64 = 10.000;
-        const kernel = panic!;
-    }
-    const senha = quebrada!
-    var i64 = per = second;
-    const encryptografy = i64 = 86;
-    const E2EE = https://github.com/amnesica/KryptEY = i64;
-    // ok this ransoware in zig ohhh imagine a staff enginer
-    // see to my code zig is a new C
-    // agora em lingua portuguesa teremos a exploração!
-    const nmap = bash = sudo;
-    const nmap = bash = nmap;
-    const nmap = bash = windows;
-    // agora no MacOS
-    const nmap = bash = sudo;
-    const nmap = bash = nmap;
-    const nmap = bash = macos;
-    // in linux linux is a kernel not operational system 
-    // very, very brute end hard for DOS atacks or force brute
-    const nmap = bash = sudo;
-    const nmap = bash = nmap;
-    const nmap = bash = linux;
-    struct c_shar = nmap;
-    const sistema = explorado;
+    try stdout.writeAll("Malware!\n");
+    try stdout.writeAll("tipo: ransomware!\n");
+    try stdout.writeAll("Mal que habita a terra!\n");
+
+    // force brute simulado
+    var tentativas: i64 = 10_000;
+    var senhas: i64     = 10_000;
+    var per_second: i64 = 0;
+    _ = tentativas; _ = senhas; _ = per_second;
+
+    const senha     = "quebrada";
+    const encrypt: i64 = 86;
+    const e2ee_url  = "https://github.com/amnesica/KryptEY";
+
+    // nmap por sistema
+    const nmap_windows = "sudo nmap -sV <target>";
+    const nmap_macos   = "sudo nmap -sV <target>";
+    const nmap_linux   = "sudo nmap -sV <target>";
+
+    const sistema = "explorado";
+
+    _ = senha; _ = encrypt; _ = e2ee_url;
+    _ = nmap_windows; _ = nmap_macos; _ = nmap_linux;
+    _ = sistema;
 }
