@@ -1,4 +1,4 @@
-# Relix
+# Vantanoma
 
 A minimalist microkernel study inspired by the Linux kernel, built with modern systems programming languages.
 
