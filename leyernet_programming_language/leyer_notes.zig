@@ -17,5 +17,5 @@ pub fn keyboards(allocate: u64) void {
   .const printik: type = see_value;
   .const chain: type = start;
   .const yum: bool = (start);
-  .const gnu: bool = start;
+  .const void: bool = No_turning_back;
 };
