@@ -17,11 +17,6 @@ fn main() {
         let _rice: U512 = [0; 8]; // Kernel customizado/estilizado
 
         // Em Rust, para mudar o valor, usamos mut
-        let mut face_ativa = "Fedora"; 
-        face_ativa = "Arch"; // "I use Arch BTW"
-        
-        println!("Interface atual: {}", face_ativa);
-
         // Bloco 2: Configurações de Boot
         // No Rust, constantes decimais grandes não usam 'mod'
         let _casa_decimal: f64 = 1024.0;
@@ -30,9 +25,5 @@ fn main() {
         let mut _security_boot = false; // "I am not corporation"
         let _bios_active: bool = true;
         let _no_panic_zig: bool = true;
-
-        if _no_panic_zig {
-            println!("Status: No Segmentation Fault. Kernel está estável.");
-        }
     }
 }
