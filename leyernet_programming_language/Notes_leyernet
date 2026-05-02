@@ -1,0 +1,37 @@
+Notes on the leyernet. this language is for beginners on low level was created because rust and zig are two programming languages very difficult, so I'm creating this language for.
+ - beginners in low level 
+
+ - control over hardware 
+
+ - hyperlink to languages such as rust, zig, C, assembly 
+
+ - extreme portability
+
+ - I called it leyernet not because of power because of the depth of my kernel
+
+ - it was created because I know that the stax kernel has several synxtase errors alias this is a study 
+
+ - we don't know if it will become famous or not but it is a unix kernel that is not unix.
+
+# portugues brasileiro
+
+Notas sobre o leyernet.
+
+esta linguagem é para iniciantes em baixo nivel
+foi criada por causa de rust e zig serem duas linguagens de programação
+muito dificil,
+então estou criando esta linguagem para.
+
+- pessoas iniciantes em baixo nivel
+
+- controle ao hardware
+
+- hiperligação a linguagens como rust, zig, C, assembly
+
+- portabilidade extrema
+
+- chamei ela de leyernet não por causa de poder por causa da profundidade do meu kernel
+
+- ela foi criada porque eu sei que o kernel stax tem varios erros de sinxtase alias isso é um estudo
+
+- não sabemos se vai ficar famoso ou não mas é um kernel unix que não é unix.
