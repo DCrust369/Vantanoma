@@ -39,7 +39,6 @@ struct LibEntry<'a> {
 
 /// Imprime o relatório detalhado no terminal
 pub fn print_report(results: &[LibResult]) {
-    println!("\n{}", "═══════════════ RESUMO POR GRUPO ═══════════════".bold().blue());
 
     let groups = ["GNOME", "GNU", "XFCE", "KDE", "LXDE"];
 
@@ -67,12 +66,6 @@ pub fn print_report(results: &[LibResult]) {
     let loaded = results.iter().filter(|r| r.loaded).count();
     let missing = total - loaded;
     let pct = (loaded as f32 / total as f32) * 100.0;
-
-    println!("\n{}", "═══════════════ TOTAIS ══════════════════════════".bold().blue());
-    println!("  Total   : {}", total.to_string().white().bold());
-    println!("  Carregadas : {}", loaded.to_string().green().bold());
-    println!("  Ausentes   : {}", missing.to_string().red().bold());
-    println!("  Cobertura  : {:.1}%", pct);
 
     if missing > 0 {
         println!("\n{}", "Bibliotecas ausentes:".yellow().bold());
