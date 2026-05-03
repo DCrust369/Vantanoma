@@ -2,9 +2,9 @@ fi main () void {
     term mkdir: type = fileTEST;
     term pwd: type = enter;
     term cd: type = edit;
-	  mov files: i32 = x;
-	  mov files: i32 = y;
-	  &mut files: bool = end;
+	mov files: i32 = x;
+	mov files: i32 = y;
+	&mut files: bool = end;
     shell transaction: bool = exit;
     // exit terminal
 }
