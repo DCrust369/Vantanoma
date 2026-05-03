@@ -120,5 +120,5 @@ This project is licensed under the **MIT License** — see the `LICENSE` file fo
 
 ---
 
-*Developed by **DCrust369** — built in Portugal, distributed on the Onion network.*  
+*Developed by **DCrust369** — distributed on the Onion network.*  
 *No warranties provided. Just pure engineering curiosity.*
