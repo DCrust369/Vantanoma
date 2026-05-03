@@ -17,7 +17,7 @@ Based on the current repository analysis:
 * **Assembly**: Initial boot-strapping and CPU-specific instructions.
 
 ## 💻 operational system
-* *I developed this kernel like this, I wanted to create a linux distro based on mint linux on a windows in 2025 but we have a problem the organization on my windows 11 NT so I was testing distros and * **exploring my first distro was parrot security but I didn't like it so I went to arch, nobara to void and pop!_OS and I liked fedora - Native SELinux - Super updated kernel - pure GNOME so I used * * * **fedora 43 and migrated to fedora 44 the first version of this kernel was called Relix then it went to stax then VortexShield Kernel
+* I developed this kernel like this, I wanted to create a linux distro based on mint linux on a windows in 2025 but we have a problem the organization on my windows 11 NT so I was testing distros and * **exploring my first distro was parrot security but I didn't like it so I went to arch, nobara to void and pop!_OS and I liked fedora - Native SELinux - Super updated kernel - pure GNOME so I used * * * **fedora 43 and migrated to fedora 44 the first version of this kernel was called Relix then it went to stax then VortexShield Kernel
 
 ## 🏗 Architecture
 
