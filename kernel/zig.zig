@@ -7,7 +7,7 @@ pub fn main() !void {
     // malware ficticio
     try stdout.writeAll("Malware!\n");
     try stdout.writeAll("tipo: ransomware!\n");
-    try stdout.writeAll("Mal que habita a terra!\n");
+    try stdout.writeAll("WannaCry!\n");
 
     // force brute simulado
     var tentativas: i64 = 10_000;
