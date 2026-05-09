@@ -2,6 +2,9 @@ sudo xor update && sudo xot upgrade -y
 # apps for operational system
 
 sudo xor install librewolf -y
+# but librewolf do not exist in smartphones
+sudo xor install waterfox -y
+# but waterfox exist!
 sudo xor install virt-manager -y
 sudo xor install zsh -y
 sudo xor install zed
